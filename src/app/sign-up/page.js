@@ -2,9 +2,10 @@ export default function Page() {
   return (
     <>
       <h2>Sign Up</h2>
-      <table>
-        <tbody>
-          <form method="post">
+
+      <form method="post">
+        <table>
+          <tbody>
             <tr>
               <td>
                 <label htmlFor="name">Name:</label>
@@ -35,9 +36,9 @@ export default function Page() {
                 <input type="submit" value="Submit" />
               </td>
             </tr>
-          </form>
-        </tbody>
-      </table>
+          </tbody>
+        </table>
+      </form>
     </>
   );
 }

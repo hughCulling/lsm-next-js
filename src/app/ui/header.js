@@ -11,6 +11,7 @@ export default function Header({ status }) {
         <Link href="sign-in">Broadcast</Link>
         <span> | </span>
         <Link href="playback">Playback</Link>
+        <span className="status">User: not signed in</span>
       </nav>
       <hr />
     </>

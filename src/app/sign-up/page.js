@@ -31,10 +31,10 @@ export default function Page() {
               </td>
             </tr>
             <tr>
-              <td></td>
               <td>
                 <input type="submit" value="Submit" />
               </td>
+              <td></td>
             </tr>
           </tbody>
         </table>

@@ -7,7 +7,6 @@ export default function Page() {
 
       <h2>Playback</h2>
       <video id="video-player" playsInline></video>
-      <Script src="./scripts/playback.js" />
     </>
   );
 }

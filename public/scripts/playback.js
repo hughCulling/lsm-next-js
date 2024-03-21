@@ -1,3 +1,5 @@
+"use client";
+
 if (IVSPlayer.isPlayerSupported) {
   const player = IVSPlayer.create();
   player.attachHTMLVideoElement(document.getElementById("video-player"));

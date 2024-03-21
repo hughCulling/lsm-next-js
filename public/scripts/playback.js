@@ -6,3 +6,4 @@ if (IVSPlayer.isPlayerSupported) {
   );
   player.play();
 }
+console.log("I'm working");

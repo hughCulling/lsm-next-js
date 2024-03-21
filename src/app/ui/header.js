@@ -8,10 +8,6 @@ export default function Header({ status }) {
       <nav>
         <Link href="/">Index</Link>
         <span> | </span>
-        <Link href="sign-in">Broadcast</Link>
-        <span> | </span>
-        <Link href="playback">Playback</Link>
-        <span> | </span>
         <Link href="sign-up">Sign Up</Link>
         <span className="status">User: not signed in</span>
       </nav>

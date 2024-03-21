@@ -3,7 +3,7 @@ export default function Page() {
     <>
       <h2>Sign Up</h2>
 
-      <form method="post">
+      <form>
         <table>
           <tbody>
             <tr>
